@@ -3,8 +3,8 @@
 ## Installation
 1. Checkout repository from `git@github.com:nukah/background_proc.git`
 2. Run `bundle install`
-3. Run './bin/worker`
-4. Run './bin/console` in other terminal.
+3. Run `./bin/worker`
+4. Run `./bin/console` in other terminal.
 
 ## Internals
 

@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'background_proc'
+Pry.start

@@ -16,7 +16,7 @@ module BackgroundProc
       loop do
         begin
           job = isolate do
-            job = scope.first
+            job = scope.last
             job.in_work! if job.present?
             job
           end

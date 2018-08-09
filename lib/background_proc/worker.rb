@@ -6,7 +6,7 @@ module BackgroundProc
     end
 
     def perform(*opts)
-      puts "No perform implementation!"
+      raise NotImplementedError
     end
   end
 end

@@ -31,7 +31,7 @@ module BackgroundProc
     end
 
     def fail!(message = nil)
-      set(in_progress: false, result: false, failure_message: message.to_s)
+      set(in_progress: false, result: false, failure_message: message)
       save
     end
   end

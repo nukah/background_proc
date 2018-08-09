@@ -1,6 +1,6 @@
 module BackgroundProc
   class Handler
-    WORKER_COUNT = 1
+    WORKER_COUNT = 3
     attr_accessor :worker_pids, :logger
 
     def initialize
